@@ -1,5 +1,5 @@
 # OptionalValidation
-## A validation func that checks whether any class that has optional instance variables are set or not
+## A validation func that checks whether any class that has optional instance variables are set or not.Usually used for model objects
 
 Usage :-
 
