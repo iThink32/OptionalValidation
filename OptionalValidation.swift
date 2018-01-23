@@ -8,6 +8,10 @@
 
 import UIKit
 
+struct ValidationError:Error {
+    var description = String()
+}
+
 protocol OptionalValidation {
     func validate() -> ValidationError?
 }
