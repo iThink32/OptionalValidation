@@ -8,7 +8,7 @@ Assume you have a class like follows:-
 ```
 class A {
 var str1:String?
-var str2:String?
+var str2:Int?
 }
 ```
 
