@@ -1,6 +1,5 @@
 //
 //  OptionalValidation.swift
-//  Rynly.Driver.iOS
 //
 //  Created by N A Shashank on 1/23/18.
 //  Copyright © 2018 N A Shashank. All rights reserved.
