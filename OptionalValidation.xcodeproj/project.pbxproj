@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CD665D37B13805F8E3C1F78 /* Pods_OptionalValidationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E533E3400AA89485C3E85724 /* Pods_OptionalValidationTests.framework */; };
+		5AB71A41E2E287C60A0C7A5B /* Pods_OptionalValidation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF4189B0BFD3397B8BF52C7 /* Pods_OptionalValidation.framework */; };
 		98C3582F2047CC3E00F5652B /* OptionalValidation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C358252047CC3E00F5652B /* OptionalValidation.framework */; };
 		98C358342047CC3E00F5652B /* OptionalValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C358332047CC3E00F5652B /* OptionalValidationTests.swift */; };
 		98C358362047CC3E00F5652B /* OptionalValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 98C358282047CC3E00F5652B /* OptionalValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98C358412047CEB300F5652B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 98C3583F2047CEB300F5652B /* README.md */; };
+		98C358422047CEB300F5652B /* OptionalValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C358402047CEB300F5652B /* OptionalValidation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +27,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11B7840467F25668150782AE /* Pods-OptionalValidationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptionalValidationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OptionalValidationTests/Pods-OptionalValidationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		609BBE43CE001642D9A2EE94 /* Pods-OptionalValidation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptionalValidation.release.xcconfig"; path = "Pods/Target Support Files/Pods-OptionalValidation/Pods-OptionalValidation.release.xcconfig"; sourceTree = "<group>"; };
+		6BF4189B0BFD3397B8BF52C7 /* Pods_OptionalValidation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OptionalValidation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79BD53CF0D5CCD2D05E43D76 /* Pods-OptionalValidationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptionalValidationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OptionalValidationTests/Pods-OptionalValidationTests.release.xcconfig"; sourceTree = "<group>"; };
+		83409850431E91EA18924A64 /* Pods-OptionalValidation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptionalValidation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OptionalValidation/Pods-OptionalValidation.debug.xcconfig"; sourceTree = "<group>"; };
 		98C358252047CC3E00F5652B /* OptionalValidation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OptionalValidation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C358282047CC3E00F5652B /* OptionalValidation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OptionalValidation.h; sourceTree = "<group>"; };
 		98C358292047CC3E00F5652B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98C3582E2047CC3E00F5652B /* OptionalValidationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OptionalValidationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C358332047CC3E00F5652B /* OptionalValidationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalValidationTests.swift; sourceTree = "<group>"; };
 		98C358352047CC3E00F5652B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98C3583F2047CEB300F5652B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		98C358402047CEB300F5652B /* OptionalValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalValidation.swift; sourceTree = "<group>"; };
+		E533E3400AA89485C3E85724 /* Pods_OptionalValidationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OptionalValidationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AB71A41E2E287C60A0C7A5B /* Pods_OptionalValidation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +57,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				98C3582F2047CC3E00F5652B /* OptionalValidation.framework in Frameworks */,
+				3CD665D37B13805F8E3C1F78 /* Pods_OptionalValidationTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4854B85E61A0B4CB68D1BA80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BF4189B0BFD3397B8BF52C7 /* Pods_OptionalValidation.framework */,
+				E533E3400AA89485C3E85724 /* Pods_OptionalValidationTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		98C3581B2047CC3E00F5652B = {
 			isa = PBXGroup;
 			children = (
 				98C358272047CC3E00F5652B /* OptionalValidation */,
 				98C358322047CC3E00F5652B /* OptionalValidationTests */,
 				98C358262047CC3E00F5652B /* Products */,
+				D095227A6EC87D6B3BA9FA8B /* Pods */,
+				4854B85E61A0B4CB68D1BA80 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +96,8 @@
 		98C358272047CC3E00F5652B /* OptionalValidation */ = {
 			isa = PBXGroup;
 			children = (
+				98C358402047CEB300F5652B /* OptionalValidation.swift */,
+				98C3583F2047CEB300F5652B /* README.md */,
 				98C358282047CC3E00F5652B /* OptionalValidation.h */,
 				98C358292047CC3E00F5652B /* Info.plist */,
 			);
@@ -84,6 +111,17 @@
 				98C358352047CC3E00F5652B /* Info.plist */,
 			);
 			path = OptionalValidationTests;
+			sourceTree = "<group>";
+		};
+		D095227A6EC87D6B3BA9FA8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83409850431E91EA18924A64 /* Pods-OptionalValidation.debug.xcconfig */,
+				609BBE43CE001642D9A2EE94 /* Pods-OptionalValidation.release.xcconfig */,
+				11B7840467F25668150782AE /* Pods-OptionalValidationTests.debug.xcconfig */,
+				79BD53CF0D5CCD2D05E43D76 /* Pods-OptionalValidationTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,10 +142,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98C358392047CC3E00F5652B /* Build configuration list for PBXNativeTarget "OptionalValidation" */;
 			buildPhases = (
+				4035DB6909B5280F79B2F289 /* [CP] Check Pods Manifest.lock */,
 				98C358202047CC3E00F5652B /* Sources */,
 				98C358212047CC3E00F5652B /* Frameworks */,
 				98C358222047CC3E00F5652B /* Headers */,
 				98C358232047CC3E00F5652B /* Resources */,
+				D8E444AAB53004B15841CCB9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98C3583C2047CC3E00F5652B /* Build configuration list for PBXNativeTarget "OptionalValidationTests" */;
 			buildPhases = (
+				62799838D052BCA473C4AE57 /* [CP] Check Pods Manifest.lock */,
 				98C3582A2047CC3E00F5652B /* Sources */,
 				98C3582B2047CC3E00F5652B /* Frameworks */,
 				98C3582C2047CC3E00F5652B /* Resources */,
+				A8CEEF8CCEB7813076036693 /* [CP] Embed Pods Frameworks */,
+				FACAA2BF9275E2E32D10C11C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -148,6 +191,7 @@
 				TargetAttributes = {
 					98C358242047CC3E00F5652B = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					98C3582D2047CC3E00F5652B = {
@@ -179,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98C358412047CEB300F5652B /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,11 +236,96 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4035DB6909B5280F79B2F289 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OptionalValidation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62799838D052BCA473C4AE57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OptionalValidationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8CEEF8CCEB7813076036693 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OptionalValidationTests/Pods-OptionalValidationTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8E444AAB53004B15841CCB9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OptionalValidation/Pods-OptionalValidation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FACAA2BF9275E2E32D10C11C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OptionalValidationTests/Pods-OptionalValidationTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		98C358202047CC3E00F5652B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98C358422047CEB300F5652B /* OptionalValidation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +463,9 @@
 		};
 		98C3583A2047CC3E00F5652B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83409850431E91EA18924A64 /* Pods-OptionalValidation.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -347,6 +479,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.iThink32.optionalValidation.OptionalValidation;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -354,7 +487,9 @@
 		};
 		98C3583B2047CC3E00F5652B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 609BBE43CE001642D9A2EE94 /* Pods-OptionalValidation.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -375,7 +510,9 @@
 		};
 		98C3583D2047CC3E00F5652B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11B7840467F25668150782AE /* Pods-OptionalValidationTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8477P97V2G;
 				INFOPLIST_FILE = OptionalValidationTests/Info.plist;
@@ -389,7 +526,9 @@
 		};
 		98C3583E2047CC3E00F5652B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79BD53CF0D5CCD2D05E43D76 /* Pods-OptionalValidationTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8477P97V2G;
 				INFOPLIST_FILE = OptionalValidationTests/Info.plist;

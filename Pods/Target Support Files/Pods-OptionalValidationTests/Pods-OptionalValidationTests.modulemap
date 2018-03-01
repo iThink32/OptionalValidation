@@ -1,0 +1,6 @@
+framework module Pods_OptionalValidationTests {
+  umbrella header "Pods-OptionalValidationTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
