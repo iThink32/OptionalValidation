@@ -25,6 +25,9 @@ and then call it on the object
 var obj = A() // for eg
 obj.validate()
 ```
+
+### Pod time :-
+
 Guys i just entered the Domain of CocoaPods , this project contains my first pod :p 
 
 to integrate this project go to your podfile and type 
