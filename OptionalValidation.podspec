@@ -28,7 +28,7 @@ s.homepage = "https://github.com/iThink32/OptionalValidation"
 
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "https://github.com/iThink32/PrivatePodsSpecs.git", :tag => "#{s.version}"}
+s.source = { :git => "https://github.com/iThink32/OptionalValidation.git", :tag => "#{s.version}"}
 
 # For example,
 # s.source = { :git => "https://github.com/JRG-Developer/RWPickFlavor.git", :tag => "#{s.version}"}
