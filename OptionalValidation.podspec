@@ -6,9 +6,10 @@ s.ios.deployment_target = '10.0'
 s.name = "OptionalValidation"
 s.summary = "A validation protocol that checks whether any class that has optional instance variables are set or not.Usually used for model objects"
 s.requires_arc = true
+s.swift_version = "4.0"
 
 # 2
-s.version = "1.0"
+s.version = "1.0.1"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }

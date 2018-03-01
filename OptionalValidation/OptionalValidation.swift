@@ -7,17 +7,17 @@
 
 import UIKit
 
-struct ValidationError:Error {
+public struct ValidationError:Error {
     var description = String()
 }
 
-protocol OptionalValidation {
+public protocol OptionalValidation {
     func validate() -> ValidationError?
 }
 
 extension OptionalValidation {
     
-    func validate() -> ValidationError? {
+    public func validate() -> ValidationError? {
         // first fetch all instance values for this class
         let mirror = Mirror(reflecting: self)
         for child in mirror.children
