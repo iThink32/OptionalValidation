@@ -5,7 +5,7 @@ Usage :-
 
 Assume you have a class like follows:-
 
-```
+```swift
 class A {
 var str1:String?
 var str2:Int?
@@ -15,13 +15,13 @@ var str2:Int?
 and now you want to check whether all the variables in this class have been set or not all you have to do is make the 
 class conform to OptionalValidation like
 
-```
+```swift
 class A:OptionalValidation
 ```
 
 and then call it on the object 
 
-```
+```swift
 var obj = A() // for eg
 obj.validate()
 ```
